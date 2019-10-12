@@ -151,7 +151,6 @@ class faded_AI(way):
 		#print(result_lis)
 		return (random.choice(list(np.where(result_lis==np.max(result_lis))[0]))+1)%3+1
 def play(way):
-	print((way.count,way.dim,way.learning_rate,way.constant_mistakes,way.w,way.last_x,way.pairs_keep,way.dic))
 	count=[0,0,0]
 	print('type 1,2,3 as R,P and S')
 	print('type 0 to show the current scorceboard,type -1 to end playing')
